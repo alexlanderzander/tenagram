@@ -1,0 +1,15 @@
+.card {
+    /* Add your styles here. Example: */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 4px; /* Rounded corners */
+    background-color: #ccc; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Drop shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* Example fixed height */
+  }
+  

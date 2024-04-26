@@ -1,0 +1,29 @@
+.footer {
+    background-color: #333; /* Change as per your design */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .app-access p {
+    margin-bottom: 10px;
+  }
+  
+  .app-links a {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  /* Example styles for app store buttons - replace with actual images or styles */
+  .app-link {
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .app-link img {
+    width: 100px; /* Adjust size as needed */
+  }
+  

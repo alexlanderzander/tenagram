@@ -1,0 +1,39 @@
+.featured-clubs {
+    background-color: #fff; /* Change as per your design */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .club-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .club-card {
+    width: 200px; /* Or whatever width you prefer */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .club-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .club-card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Example color - adjust as needed */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for buttons */
+  .club-card button:hover {
+    background-color: #45a049;
+  }
+  

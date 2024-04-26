@@ -1,0 +1,36 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4d4d4; /* or any color that matches your design */
+  }
+  
+  .login-form {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Add styles for labels, inputs, and buttons here */
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .login-button {
+    background-color: #ff0000; /* match your button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  

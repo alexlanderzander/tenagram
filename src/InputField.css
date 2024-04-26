@@ -1,0 +1,15 @@
+.input-field {
+    width: 600px;
+    height: 60px;
+    padding: 0px 8px;
+    border: 1px solid #030303;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: rgba(224, 224, 224, 0.64);
+    color: #525252;
+    font-size: 16px;
+    font-family: "Roboto Mono", monospace;
+    line-height: 22px;
+    outline: none;
+  }
+  

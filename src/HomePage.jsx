@@ -43,8 +43,7 @@ const HomePage = () => {
       <Card2 Icon={Icon}>Content for card 4</Card2>
       <Card2 Icon={Icon}>Content for card 4</Card2>
       <Card2 Icon={Icon}>Content for card 4</Card2>
-      <Card2 Icon={Icon}>Content for card 4</Card2>
-      <Card2 Icon={Icon}>Content for card 4</Card2>
+      
      
       </div>
 

@@ -57,18 +57,51 @@
     background-color: #ffffff; /* White background for the card */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
-  /* HomePage.css */
-  .card2-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 50vh; /* Adjust as needed */
-  }
-  
-  .card2 {
-    width: 395px;
-    height: 200px;
-    background-color: #f0f0f0;
-    margin: 10px; /* Adjust as needed */
-  }
+ /* HomePage.css */
+/* HomePage.css */
+.card2-container {
+  display: flex;
+  justify-content: center; /* Centers all cards horizontally */
+  align-items: flex-start; /* Aligns all cards at the top */
+  flex-wrap: wrap; /* Allows wrapping of cards across lines */
+  gap: 15px; /* Adds space between the cards */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.card2 {
+  width: 320px; /* Set to desired card width */
+  min-height: 380px; /* Set to desired card height */
+  background-color: #f0f0f0;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+  border-radius: 8px; /* Rounds the corners */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Organizes content vertically */
+  justify-content: space-between; /* Ensures title and links are spaced apart */
+  padding: 10px; /* Adds padding around the content */
+}
+
+.card2 img {
+  width: 100%; /* Ensures image fits the card width */
+  height: auto;
+  margin-bottom: 10px; /* Adds space between the image and title */
+}
+
+.card2-title {
+  text-align: center; /* Centers the title text */
+  margin-bottom: 10px; /* Adds space after the title */
+}
+
+.card2-text {
+  flex: 1; /* Expands to take available space between title and footer */
+  text-align: center; /* Centers the text */
+}
+
+.card2-footer {
+  text-align: center;
+  margin-top: 15px; /* Adds space between the main content and footer links */
+  padding: 10px; /* Adds padding for links visibility */
+  background-color: #f0f0f0; /* Matches the card background */
+}
+

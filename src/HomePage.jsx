@@ -7,6 +7,7 @@ import InputField from './InputField';
 import Icon from './IconComponent';
 import Card from './Card'; // Updated import
 import './HomePage.css';
+import Card2 from './Card2';
 
 const HomePage = () => {
   return (
@@ -33,10 +34,25 @@ const HomePage = () => {
 
       {/* Featured Clubs section */}
       <FeaturedClubs />
+      <div className="card2-container">
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+      <Card2 Icon={Icon}>Content for card 4</Card2>
+     
+      </div>
 
       <HowItWorks />
+      
       <Footer />
     </div>
+    
   );
 };
 
